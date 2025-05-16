@@ -9,7 +9,7 @@ COPY . .
 # expose the port
 #EXPOSE 8080
 #
-# docker container run -d -p 8080:8080 --name conversao-temperatura tataosbeer/conversao-temperatura:v3
+# docker container run -d -p 8080:8080 --name conversao-temperatura fabricioveronez/conversao-temperatura:latest
 #
 
 # execute the node application
